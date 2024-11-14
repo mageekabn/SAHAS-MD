@@ -15,7 +15,7 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94740326138",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
@@ -23,10 +23,10 @@ module.exports = {
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
   ANTI_LINK: process.env.ANTILINK || "true",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
-  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
-  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
+  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "false",
+  ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "false",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
   packname: process.env.packname || "SAHAS TECH",
